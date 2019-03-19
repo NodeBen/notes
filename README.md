@@ -29,6 +29,8 @@ Use a compiler to code using latest ECMAScript standard
 Replace Anonymous function by ([var]) => {}, it will scope this to the caller and not the anonymous function. 
 Replacing the var myself = this;
 
+Define Key and Value of object, with only one variable name : {foo} <=> {foo:foo}
+
 ## NodeJS
 
 Use __dirname and __filename magic global to deals about current file
