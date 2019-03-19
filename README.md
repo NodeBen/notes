@@ -1,5 +1,5 @@
 
-# Notes about Nodejs
+# Notes about JS & Nodejs
 
 ## Best Practices 
 
@@ -22,6 +22,19 @@ function callback(err,values) {
 	... do some stuff with values
 }
 ```
+## Ecmascript
+
+Use a compiler to code using latest ECMAScript standard
+
+Replace Anonymous function by ([var]) => {}, it will scope this to the caller and not the anonymous function. 
+Replacing the var myself = this;
+
+## NodeJS
+
+Use __dirname and __filename magic global to deals about current file
 
 
+## Express
+
+Always declare middleware app.use before declaring the route itself
 
