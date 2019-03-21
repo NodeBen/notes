@@ -31,6 +31,10 @@ Replacing the var myself = this;
 
 Define Key and Value of object, with only one variable name : {foo} <=> {foo:foo}
 
+ALWAYS use await when function is Promise compatible
+
+If function is not Promise compatible, create a Promise to wrap it in an async function
+
 ## NodeJS
 
 Use __dirname and __filename magic global to deals about current file
