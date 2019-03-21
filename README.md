@@ -39,6 +39,8 @@ If function is not Promise compatible, create a Promise to wrap it in an async f
 
 Use __dirname and __filename magic global to deals about current file
 
+Use PM2 to manage Node (auto-restart, hot reload)
+
 
 ## Express
 
